@@ -1,6 +1,6 @@
 class BinaryTreeNode: 
     
-    def  init (self, data):
+    def__init__(self, data):
 
 self.data = data 
 self.left = None 
@@ -9,7 +9,6 @@ def insert(root, new_value) ->
 
 
 BinaryTreeNode:
-
 
 """If binary search tree is empty, make a new node, declare it as root and return the root.
 

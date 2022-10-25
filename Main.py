@@ -70,7 +70,5 @@ for item in input_data.split(', '):
         else:
 insert(root, int(item)) 
 inorder(root) 
-print()
-preorder(root) 
-print() 
-postorder(root)
+print()preorder(root) 
+print() postorder(root)
